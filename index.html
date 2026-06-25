@@ -1,0 +1,921 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sommerjobs am Badesee in München | A.S.S. All Sun Serve GmbH</title>
+  <meta name="description" content="Sommerjob am Badesee gesucht? A.S.S. All Sun Serve GmbH vergibt täglich Ferienjobs an der Parkplatzkasse am Feldmochinger See und Langwieder See. Ab 18, 15 Euro netto bei Voraussetzungen.">
+  <meta name="robots" content="index, follow, max-image-preview:large">
+  <meta name="author" content="A.S.S. All Sun Serve GmbH">
+  <meta name="theme-color" content="#0e766d">
+  <meta property="og:title" content="Sommerjobs am Badesee | A.S.S. All Sun Serve GmbH">
+  <meta property="og:description" content="Ferienjobs an der Parkplatzkasse am Feldmochinger See und Langwieder See. Für Studierende und Schüler ab 18. Bewerbung direkt per WhatsApp.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="assets/badesee-jobs.jpeg">
+  <meta property="og:locale" content="de_DE">
+  <link rel="preload" href="assets/badesee-jobs.jpeg" as="image">
+  <style>
+    :root {
+      --ink: #11211f;
+      --muted: #536562;
+      --paper: #fffdf7;
+      --soft: #f2f7ef;
+      --lake: #0e766d;
+      --lake-dark: #084d47;
+      --sun: #f6c453;
+      --coral: #e7624f;
+      --reed: #799a3f;
+      --line: rgba(17, 33, 31, .14);
+      --shadow: 0 22px 60px rgba(8, 77, 71, .22);
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      color: var(--ink);
+      background: var(--paper);
+      line-height: 1.55;
+    }
+
+    a {
+      color: inherit;
+    }
+
+    .skip-link {
+      position: absolute;
+      left: 16px;
+      top: -60px;
+      z-index: 30;
+      background: var(--paper);
+      color: var(--ink);
+      padding: 10px 14px;
+      border-radius: 6px;
+      transition: top .2s ease;
+    }
+
+    .skip-link:focus {
+      top: 16px;
+    }
+
+    header {
+      position: sticky;
+      top: 0;
+      z-index: 20;
+      background: rgba(255, 253, 247, .9);
+      backdrop-filter: blur(14px);
+      border-bottom: 1px solid var(--line);
+    }
+
+    .nav {
+      width: min(1120px, calc(100% - 32px));
+      min-height: 68px;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 20px;
+    }
+
+    .brand {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      text-decoration: none;
+      font-weight: 800;
+      letter-spacing: 0;
+      white-space: nowrap;
+    }
+
+    .brand-mark {
+      width: 38px;
+      height: 38px;
+      display: grid;
+      place-items: center;
+      border-radius: 50%;
+      background: var(--sun);
+      color: var(--lake-dark);
+      font-size: 13px;
+      box-shadow: inset 0 0 0 2px rgba(255, 255, 255, .62);
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      margin: 0;
+      padding: 0;
+    }
+
+    nav a {
+      display: inline-flex;
+      min-height: 40px;
+      align-items: center;
+      padding: 0 12px;
+      border-radius: 6px;
+      color: var(--muted);
+      font-weight: 700;
+      text-decoration: none;
+      font-size: 14px;
+    }
+
+    nav a:hover,
+    nav a:focus-visible {
+      background: rgba(14, 118, 109, .1);
+      color: var(--lake-dark);
+      outline: none;
+    }
+
+    .nav-cta {
+      background: var(--lake);
+      color: #fff !important;
+    }
+
+    main {
+      overflow: hidden;
+    }
+
+    .hero {
+      min-height: calc(100svh - 68px);
+      display: grid;
+      align-items: end;
+      position: relative;
+      color: #fff;
+      isolation: isolate;
+      background-image:
+        linear-gradient(90deg, rgba(7, 40, 36, .78) 0%, rgba(7, 40, 36, .48) 42%, rgba(7, 40, 36, .1) 100%),
+        linear-gradient(0deg, rgba(7, 40, 36, .5) 0%, rgba(7, 40, 36, .08) 38%),
+        url("assets/badesee-jobs.jpeg");
+      background-size: cover;
+      background-position: center;
+    }
+
+    .hero-inner {
+      width: min(1120px, calc(100% - 32px));
+      margin: 0 auto;
+      padding: 96px 0 74px;
+    }
+
+    .eyebrow {
+      display: inline-flex;
+      align-items: center;
+      min-height: 32px;
+      padding: 0 12px;
+      border: 1px solid rgba(255, 255, 255, .45);
+      border-radius: 999px;
+      background: rgba(255, 255, 255, .12);
+      font-size: 13px;
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: 0;
+    }
+
+    h1,
+    h2,
+    h3,
+    p {
+      margin-top: 0;
+    }
+
+    h1 {
+      max-width: 780px;
+      margin: 22px 0 18px;
+      font-size: clamp(42px, 8vw, 86px);
+      line-height: .98;
+      letter-spacing: 0;
+    }
+
+    .lead {
+      max-width: 660px;
+      margin-bottom: 30px;
+      color: rgba(255, 255, 255, .92);
+      font-size: clamp(18px, 2.3vw, 24px);
+    }
+
+    .hero-actions,
+    .section-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      align-items: center;
+    }
+
+    .button {
+      min-height: 50px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      padding: 0 18px;
+      border: 0;
+      border-radius: 7px;
+      background: var(--sun);
+      color: #1f2a20;
+      text-decoration: none;
+      font-weight: 800;
+      box-shadow: 0 12px 24px rgba(0, 0, 0, .18);
+    }
+
+    .button.secondary {
+      background: rgba(255, 255, 255, .14);
+      color: #fff;
+      border: 1px solid rgba(255, 255, 255, .48);
+      box-shadow: none;
+    }
+
+    .button:hover,
+    .button:focus-visible {
+      transform: translateY(-1px);
+      outline: 3px solid rgba(246, 196, 83, .38);
+      outline-offset: 3px;
+    }
+
+    .quick-facts {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      width: min(1120px, calc(100% - 32px));
+      margin: -36px auto 0;
+      position: relative;
+      z-index: 3;
+      background: #fff;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      box-shadow: var(--shadow);
+      overflow: hidden;
+    }
+
+    .fact {
+      padding: 22px;
+      min-height: 118px;
+      border-right: 1px solid var(--line);
+    }
+
+    .fact:last-child {
+      border-right: 0;
+    }
+
+    .fact strong {
+      display: block;
+      margin-bottom: 4px;
+      color: var(--lake-dark);
+      font-size: 24px;
+      line-height: 1.1;
+    }
+
+    .fact span {
+      color: var(--muted);
+      font-weight: 700;
+      font-size: 14px;
+    }
+
+    section {
+      padding: 90px 0;
+    }
+
+    .wrap {
+      width: min(1120px, calc(100% - 32px));
+      margin: 0 auto;
+    }
+
+    .section-head {
+      max-width: 760px;
+      margin-bottom: 36px;
+    }
+
+    .section-kicker {
+      margin-bottom: 10px;
+      color: var(--coral);
+      font-size: 13px;
+      font-weight: 900;
+      text-transform: uppercase;
+    }
+
+    h2 {
+      margin-bottom: 14px;
+      font-size: clamp(31px, 4vw, 50px);
+      line-height: 1.04;
+      letter-spacing: 0;
+    }
+
+    .section-head p {
+      color: var(--muted);
+      font-size: 18px;
+    }
+
+    .split {
+      display: grid;
+      grid-template-columns: 1.02fr .98fr;
+      gap: 42px;
+      align-items: center;
+    }
+
+    .panel {
+      background: #fff;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 28px;
+      box-shadow: 0 14px 38px rgba(14, 118, 109, .1);
+    }
+
+    .job-list,
+    .check-list {
+      list-style: none;
+      display: grid;
+      gap: 14px;
+      margin: 0;
+      padding: 0;
+    }
+
+    .job-list li,
+    .check-list li {
+      display: grid;
+      grid-template-columns: 30px 1fr;
+      gap: 12px;
+      align-items: start;
+    }
+
+    .tick {
+      width: 30px;
+      height: 30px;
+      display: grid;
+      place-items: center;
+      border-radius: 50%;
+      background: rgba(14, 118, 109, .12);
+      color: var(--lake);
+      font-weight: 900;
+    }
+
+    .detail-strip {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 12px;
+      margin-top: 22px;
+      padding-top: 22px;
+      border-top: 1px solid var(--line);
+    }
+
+    .detail-item {
+      min-height: 92px;
+      padding: 16px;
+      border-radius: 7px;
+      background: var(--soft);
+    }
+
+    .detail-item strong {
+      display: block;
+      margin-bottom: 4px;
+      color: var(--lake-dark);
+    }
+
+    .detail-item span {
+      color: var(--muted);
+      font-size: 14px;
+      font-weight: 700;
+    }
+
+    .media-frame {
+      min-height: 430px;
+      border-radius: 8px;
+      background: url("assets/badesee-jobs.jpeg") center / cover;
+      box-shadow: var(--shadow);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .media-frame::after {
+      content: "";
+      position: absolute;
+      inset: auto 0 0 0;
+      height: 38%;
+      background: linear-gradient(0deg, rgba(7, 40, 36, .62), transparent);
+    }
+
+    .soft-band {
+      background: var(--soft);
+      border-top: 1px solid var(--line);
+      border-bottom: 1px solid var(--line);
+    }
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 18px;
+    }
+
+    .card {
+      min-height: 214px;
+      padding: 24px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: #fff;
+    }
+
+    .card-number {
+      width: 42px;
+      height: 42px;
+      display: grid;
+      place-items: center;
+      margin-bottom: 18px;
+      border-radius: 50%;
+      background: var(--lake);
+      color: #fff;
+      font-weight: 900;
+    }
+
+    .card h3 {
+      margin-bottom: 8px;
+      font-size: 22px;
+    }
+
+    .card p {
+      margin-bottom: 0;
+      color: var(--muted);
+    }
+
+    .apply-box {
+      display: grid;
+      grid-template-columns: 1fr auto;
+      gap: 24px;
+      align-items: center;
+      padding: 34px;
+      border-radius: 8px;
+      background: var(--lake-dark);
+      color: #fff;
+      box-shadow: var(--shadow);
+    }
+
+    .apply-box p {
+      margin-bottom: 0;
+      color: rgba(255, 255, 255, .82);
+    }
+
+    .apply-box .button {
+      box-shadow: none;
+      white-space: nowrap;
+    }
+
+    .contact-grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 16px;
+      margin-top: 24px;
+    }
+
+    .contact-tile {
+      min-height: 112px;
+      padding: 18px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: #fff;
+    }
+
+    .contact-tile strong {
+      display: block;
+      margin-bottom: 7px;
+      color: var(--lake-dark);
+    }
+
+    .contact-tile a,
+    .contact-tile span {
+      color: var(--muted);
+      word-break: break-word;
+    }
+
+    .legal {
+      background: #fff;
+    }
+
+    .legal-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 32px;
+      align-items: start;
+    }
+
+    .legal article {
+      border-top: 3px solid var(--reed);
+      padding-top: 18px;
+    }
+
+    .legal h2 {
+      font-size: clamp(26px, 3vw, 36px);
+    }
+
+    .legal h3 {
+      margin: 24px 0 8px;
+      font-size: 18px;
+    }
+
+    .legal p {
+      color: var(--muted);
+    }
+
+    footer {
+      border-top: 1px solid var(--line);
+      background: #11211f;
+      color: rgba(255, 255, 255, .78);
+      padding: 26px 0;
+    }
+
+    .footer-inner {
+      width: min(1120px, calc(100% - 32px));
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 18px;
+      flex-wrap: wrap;
+      font-size: 14px;
+    }
+
+    .footer-links {
+      display: flex;
+      gap: 14px;
+      flex-wrap: wrap;
+    }
+
+    .footer-links a {
+      color: #fff;
+      text-decoration: none;
+    }
+
+    .wa-float {
+      position: fixed;
+      right: 18px;
+      bottom: 18px;
+      z-index: 25;
+      width: 62px;
+      height: 62px;
+      display: grid;
+      place-items: center;
+      border-radius: 50%;
+      background: #25d366;
+      color: #062b15;
+      box-shadow: 0 14px 34px rgba(0, 0, 0, .24);
+      text-decoration: none;
+    }
+
+    .wa-float svg {
+      width: 32px;
+      height: 32px;
+      fill: currentColor;
+    }
+
+    .wa-float:focus-visible {
+      outline: 4px solid rgba(37, 211, 102, .4);
+      outline-offset: 4px;
+    }
+
+    @media (max-width: 900px) {
+      .nav {
+        min-height: auto;
+        padding: 12px 0;
+        align-items: flex-start;
+        flex-direction: column;
+      }
+
+      nav ul {
+        width: 100%;
+        overflow-x: auto;
+        padding-bottom: 4px;
+      }
+
+      .hero {
+        min-height: 82svh;
+        background-position: 56% center;
+      }
+
+      .quick-facts,
+      .cards,
+      .contact-grid,
+      .legal-grid,
+      .detail-strip,
+      .split {
+        grid-template-columns: 1fr;
+      }
+
+      .quick-facts {
+        margin-top: 0;
+        border-radius: 0;
+        width: 100%;
+        box-shadow: none;
+      }
+
+      .fact {
+        border-right: 0;
+        border-bottom: 1px solid var(--line);
+      }
+
+      .apply-box {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    @media (max-width: 560px) {
+      .hero-inner {
+        padding: 76px 0 54px;
+      }
+
+      h1 {
+        font-size: 44px;
+      }
+
+      section {
+        padding: 64px 0;
+      }
+
+      .panel,
+      .apply-box {
+        padding: 22px;
+      }
+
+      .media-frame {
+        min-height: 310px;
+      }
+
+      .button {
+        width: 100%;
+      }
+
+      .wa-float {
+        width: 56px;
+        height: 56px;
+      }
+    }
+  </style>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        "name": "A.S.S. All Sun Serve GmbH",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Ainmillerstr. 50",
+          "postalCode": "80801",
+          "addressLocality": "München",
+          "addressCountry": "DE"
+        },
+        "email": "a.s.s.allsunserve-gmbh@gmx.de",
+        "telephone": "+491632025126"
+      },
+      {
+        "@type": "JobPosting",
+        "title": "Ferienjob Parkplatzkasse am Feldmochinger See und Langwieder See",
+        "description": "A.S.S. All Sun Serve GmbH vergibt in den Sommermonaten täglich Ferienjobs für Studierende und Schüler ab 18 Jahren auf Basis Kurzfristigkeit/Ferienjob. Tätigkeit: Parkplatzkasse in den Erholungsgebieten Feldmochinger See und Langwieder See. Arbeitszeit bei Badebetrieb, Beginn zwischen 8.00 und 10.00 Uhr, Ende zwischen 18.00 und 19.30 Uhr. Bezahlung: 15 Euro netto bei Vorliegen der Voraussetzungen.",
+        "datePosted": "2026-06-25",
+        "validThrough": "2026-09-30",
+        "employmentType": ["PART_TIME", "TEMPORARY"],
+        "hiringOrganization": {
+          "@type": "Organization",
+          "name": "A.S.S. All Sun Serve GmbH"
+        },
+        "jobLocation": [
+          {
+            "@type": "Place",
+            "name": "Feldmochinger See",
+            "address": {
+              "@type": "PostalAddress",
+              "addressLocality": "München",
+              "addressRegion": "Bayern",
+              "addressCountry": "DE"
+            }
+          },
+          {
+            "@type": "Place",
+            "name": "Langwieder See",
+            "address": {
+              "@type": "PostalAddress",
+              "addressLocality": "München",
+              "addressRegion": "Bayern",
+              "addressCountry": "DE"
+            }
+          }
+        ],
+        "applicantLocationRequirements": {
+          "@type": "Country",
+          "name": "Deutschland"
+        }
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#jobs">Zum Inhalt springen</a>
+
+  <header>
+    <div class="nav" aria-label="Hauptnavigation">
+      <a class="brand" href="#top" aria-label="A.S.S. All Sun Serve GmbH Startseite">
+        <span class="brand-mark">A.S.S.</span>
+        <span>All Sun Serve GmbH</span>
+      </a>
+      <nav>
+        <ul>
+          <li><a href="#jobs">Jobs</a></li>
+          <li><a href="#vorteile">Vorteile</a></li>
+          <li><a href="#bewerben">Bewerben</a></li>
+          <li><a href="#impressum">Impressum</a></li>
+          <li><a class="nav-cta" href="https://wa.me/491632025126?text=Hallo%20A.S.S.%20All%20Sun%20Serve%2C%20ich%20interessiere%20mich%20f%C3%BCr%20einen%20Sommerjob%20am%20Badesee." target="_blank" rel="noopener noreferrer">WhatsApp</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero" aria-label="Sommerjobs am Badesee">
+      <div class="hero-inner">
+        <span class="eyebrow">Ferienjobs für Sommer, See und Service</span>
+        <h1>Sommerjobs am Badesee</h1>
+        <p class="lead">A.S.S. All Sun Serve GmbH sucht Studierende und Schüler ab 18 Jahren für tägliche Ferienjobs an der Parkplatzkasse am Feldmochinger See und Langwieder See.</p>
+        <div class="hero-actions">
+          <a class="button" href="https://wa.me/491632025126?text=Hallo%20A.S.S.%20All%20Sun%20Serve%2C%20ich%20m%C3%B6chte%20mich%20f%C3%BCr%20einen%20Ferienjob%20an%20der%20Parkplatzkasse%20bewerben.%20" target="_blank" rel="noopener noreferrer">Jetzt per WhatsApp bewerben</a>
+          <a class="button secondary" href="#jobs">Jobs ansehen</a>
+        </div>
+      </div>
+    </section>
+
+    <div class="quick-facts" aria-label="Kurzinfos">
+      <div class="fact">
+        <strong>18+</strong>
+        <span>Geeignet für Schüler ab 18 und Studierende</span>
+      </div>
+      <div class="fact">
+        <strong>15 €</strong>
+        <span>Netto bei Vorliegen der Voraussetzungen</span>
+      </div>
+      <div class="fact">
+        <strong>2 Seen</strong>
+        <span>Feldmochinger See und Langwieder See</span>
+      </div>
+      <div class="fact">
+        <strong>8-19:30</strong>
+        <span>Einsatzzeiten je nach Badebetrieb</span>
+      </div>
+    </div>
+
+    <section id="jobs">
+      <div class="wrap split">
+        <div>
+          <div class="section-head">
+            <p class="section-kicker">Was dich erwartet</p>
+            <h2>Parkplatzkasse am Feldmochinger See und Langwieder See.</h2>
+            <p>Du unterstützt unser Team in den Sommermonaten direkt in den Erholungsgebieten. Die Ferienjobs werden täglich vergeben und laufen auf Basis Kurzfristigkeit/Ferienjob.</p>
+          </div>
+          <div class="panel">
+            <ul class="job-list">
+              <li><span class="tick">✓</span><span>Tätigkeit an der Parkplatzkasse in den Erholungsgebieten</span></li>
+              <li><span class="tick">✓</span><span>Einsatzorte: Feldmochinger See und Langwieder See</span></li>
+              <li><span class="tick">✓</span><span>Arbeitszeit bei Badebetrieb: Beginn zwischen 8.00 und 10.00 Uhr</span></li>
+              <li><span class="tick">✓</span><span>Feierabend je nach Betrieb zwischen 18.00 und 19.30 Uhr</span></li>
+            </ul>
+            <div class="detail-strip" aria-label="Jobdetails">
+              <div class="detail-item">
+                <strong>Bezahlung</strong>
+                <span>15 Euro netto bei Vorliegen der Voraussetzungen</span>
+              </div>
+              <div class="detail-item">
+                <strong>Auszahlung</strong>
+                <span>Auf Wunsch Barzahlung täglich möglich</span>
+              </div>
+              <div class="detail-item">
+                <strong>Voraussetzung 1</strong>
+                <span>Immatrikulationsbescheinigung</span>
+              </div>
+              <div class="detail-item">
+                <strong>Voraussetzung 2</strong>
+                <span>Lohnsteuerklasse I oder II</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="media-frame" role="img" aria-label="Badesee mit Wasser, Strand und Bäumen"></div>
+      </div>
+    </section>
+
+    <section id="vorteile" class="soft-band">
+      <div class="wrap">
+        <div class="section-head">
+          <p class="section-kicker">Warum A.S.S.</p>
+          <h2>Gut für Studierende, Schüler ab 18 und alle, die im Sommer flexibel arbeiten wollen.</h2>
+          <p>Wir suchen zuverlässige Menschen für klare Aufgaben am Badesee. Wichtig sind Freundlichkeit, Pünktlichkeit und Verlässlichkeit im Umgang mit Badegästen und Besuchern.</p>
+        </div>
+        <div class="cards">
+          <article class="card">
+            <div class="card-number">1</div>
+            <h3>Tägliche Jobs</h3>
+            <p>In den Sommermonaten vergeben wir laufend Ferienjobs für einzelne Tage und passende Zeiträume.</p>
+          </article>
+          <article class="card">
+            <div class="card-number">2</div>
+            <h3>Feste Einsatzorte</h3>
+            <p>Du arbeitest an bekannten Erholungsgebieten: Feldmochinger See und Langwieder See.</p>
+          </article>
+          <article class="card">
+            <div class="card-number">3</div>
+            <h3>Klare Konditionen</h3>
+            <p>15 Euro netto bei passenden Voraussetzungen, mit täglicher Barzahlung auf Wunsch.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="bewerben">
+      <div class="wrap">
+        <div class="apply-box">
+          <div>
+            <p class="section-kicker" style="color: var(--sun);">Bewerbung</p>
+            <h2>Schreib uns direkt auf WhatsApp.</h2>
+            <p>Nenne bitte deinen Namen, dein Alter, deinen Wohnort, wann du Zeit hast und ob du eine Immatrikulationsbescheinigung sowie Lohnsteuerklasse I oder II vorlegen kannst.</p>
+          </div>
+          <a class="button" href="https://wa.me/491632025126?text=Hallo%20A.S.S.%20All%20Sun%20Serve%2C%20ich%20interessiere%20mich%20f%C3%BCr%20einen%20Ferienjob%20an%20der%20Parkplatzkasse.%20Mein%20Name%20ist%3A%20" target="_blank" rel="noopener noreferrer">WhatsApp öffnen</a>
+        </div>
+
+        <div class="contact-grid" aria-label="Kontaktmöglichkeiten">
+          <div class="contact-tile">
+            <strong>WhatsApp / Telefon</strong>
+            <a href="tel:+491632025126">+49 163 2025126</a>
+          </div>
+          <div class="contact-tile">
+            <strong>E-Mail</strong>
+            <a href="mailto:a.s.s.allsunserve-gmbh@gmx.de">a.s.s.allsunserve-gmbh@gmx.de</a>
+          </div>
+          <div class="contact-tile">
+            <strong>Firma</strong>
+            <span>A.S.S. All Sun Serve GmbH, München</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="impressum" class="legal">
+      <div class="wrap legal-grid">
+        <article>
+          <h2>Impressum</h2>
+          <p><strong>A.S.S. All Sun Serve GmbH</strong><br>
+            Ainmillerstr. 50<br>
+            80801 München<br>
+            Deutschland</p>
+
+          <p><strong>Kontakt</strong><br>
+            Telefon: <a href="tel:+491632025126">+49 163 2025126</a><br>
+            E-Mail: <a href="mailto:a.s.s.allsunserve-gmbh@gmx.de">a.s.s.allsunserve-gmbh@gmx.de</a></p>
+
+          <p><strong>Registereintrag</strong><br>
+            Handelsregister: HRB 137088<br>
+            Registergericht: Amtsgericht München</p>
+
+          <p><strong>Vertreten durch</strong><br>
+            Geschäftsführer: Naser Aliu</p>
+
+          <p><strong>Hinweis</strong><br>
+            Diese Seite enthält eine Anbieterkennzeichnung nach bestem Stand der bereitgestellten Firmendaten. Eine abschließende rechtliche Prüfung durch eine fachkundige Stelle kann dadurch nicht ersetzt werden.</p>
+        </article>
+
+        <article id="datenschutz">
+          <h2>Datenschutz</h2>
+          <p>Diese Website ist als statische Informationsseite aufgebaut. Beim reinen Besuch werden durch uns keine Cookies gesetzt, keine Analyse-Tools geladen und keine Kontaktformulare betrieben.</p>
+
+          <h3>Hosting</h3>
+          <p>Wenn diese Seite über GitHub Pages veröffentlicht wird, verarbeitet GitHub technisch notwendige Zugriffsdaten wie IP-Adresse, Zeitpunkt des Abrufs, Browserinformationen und angeforderte Dateien, um die Website auszuliefern und die Sicherheit des Dienstes zu gewährleisten.</p>
+
+          <h3>Kontakt per WhatsApp, Telefon oder E-Mail</h3>
+          <p>Wenn du uns kontaktierst, verarbeiten wir die von dir übermittelten Angaben zur Bearbeitung deiner Anfrage und möglichen Bewerbung. Beim Klick auf den WhatsApp-Link verlässt du diese Website; die weitere Datenverarbeitung erfolgt durch WhatsApp bzw. Meta nach deren Bedingungen.</p>
+
+          <h3>Rechtsgrundlagen und Speicherdauer</h3>
+          <p>Die Verarbeitung erfolgt, soweit zutreffend, zur Kommunikation vor Vertragsschluss, zur Durchführung organisatorischer Schritte und aufgrund berechtigter Interessen an einer schnellen Bewerberkommunikation. Daten werden gelöscht, sobald sie für den Zweck nicht mehr erforderlich sind und keine gesetzlichen Aufbewahrungspflichten entgegenstehen.</p>
+
+          <h3>Deine Rechte</h3>
+          <p>Du hast im Rahmen der gesetzlichen Voraussetzungen Rechte auf Auskunft, Berichtigung, Löschung, Einschränkung der Verarbeitung, Datenübertragbarkeit und Widerspruch. Du kannst dich zudem bei einer Datenschutzaufsichtsbehörde beschweren.</p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-inner">
+      <span>&copy; 2026 A.S.S. All Sun Serve GmbH</span>
+      <div class="footer-links">
+        <a href="#impressum">Impressum</a>
+        <a href="#datenschutz">Datenschutz</a>
+        <a href="mailto:a.s.s.allsunserve-gmbh@gmx.de">Kontakt</a>
+      </div>
+    </div>
+  </footer>
+
+  <a class="wa-float" href="https://wa.me/491632025126?text=Hallo%20A.S.S.%20All%20Sun%20Serve%2C%20ich%20interessiere%20mich%20f%C3%BCr%20einen%20Sommerjob%20am%20Badesee." target="_blank" rel="noopener noreferrer" aria-label="WhatsApp Chat öffnen">
+    <svg viewBox="0 0 32 32" aria-hidden="true" focusable="false">
+      <path d="M16.04 3.2c-7.07 0-12.82 5.65-12.82 12.61 0 2.23.6 4.41 1.74 6.32L3.1 28.8l6.9-1.79a12.95 12.95 0 0 0 6.04 1.5c7.07 0 12.82-5.65 12.82-12.6S23.11 3.2 16.04 3.2Zm0 23.17c-1.9 0-3.77-.51-5.4-1.47l-.39-.23-4.09 1.06 1.09-3.88-.26-.4a10.36 10.36 0 0 1-1.62-5.54c0-5.77 4.79-10.47 10.67-10.47 5.88 0 10.67 4.7 10.67 10.47 0 5.76-4.79 10.46-10.67 10.46Zm5.85-7.84c-.32-.16-1.88-.91-2.17-1.02-.29-.1-.5-.16-.71.16-.21.31-.82 1.02-1.01 1.23-.18.21-.37.24-.69.08-.32-.16-1.35-.49-2.57-1.56-.95-.83-1.59-1.86-1.78-2.17-.18-.31-.02-.48.14-.64.14-.14.32-.37.48-.55.16-.18.21-.31.32-.52.11-.21.05-.39-.03-.55-.08-.16-.71-1.69-.98-2.32-.26-.61-.52-.53-.71-.54h-.61c-.21 0-.55.08-.84.39-.29.31-1.1 1.06-1.1 2.59 0 1.53 1.13 3.01 1.29 3.22.16.21 2.22 3.34 5.38 4.68.75.32 1.34.51 1.8.65.76.24 1.45.2 1.99.12.61-.09 1.88-.76 2.15-1.49.26-.73.26-1.36.18-1.49-.08-.13-.29-.21-.61-.37Z"/>
+    </svg>
+  </a>
+</body>
+</html>
